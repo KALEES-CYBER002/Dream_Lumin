@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Lumin - Your Gateway to Brilliance</title>
-
     <style>
         * {
             margin: 0;
@@ -21,9 +20,16 @@
             min-height: 100vh;
         }
 
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
         .banner {
             width: 100%;
-            height: auto;
+            height: 300px;
+            object-fit: cover;
         }
 
         h1 {
@@ -67,6 +73,14 @@
             padding: 20px;
         }
 
+        #intro {
+            background: url('image copy.png') no-repeat center center fixed;
+            background-size: cover;
+            padding: 100px 20px;
+            color: white;
+            text-align: center;
+        }
+
         footer {
             background-color: #222;
             color: white;
@@ -77,7 +91,6 @@
             text-align: center;
         }
     </style>
-
 </head>
 <body>
     <header>
@@ -86,16 +99,19 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#contact_us">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <p>Welcome to Dream Lumin! More content coming soon.</p>
+        <section id="intro">
+            <h2>Welcome to Dream Lumin!</h2>
+            <p>Your Gateway to Brilliance. Explore our services and upcoming events.</p>
+        </section>
     </main>
 
     <footer>
